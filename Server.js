@@ -9,7 +9,7 @@ mongoose.connect(process.env.MONGO_URI).then(()=>{console.log("MongoDB connected
 
 app.use('/auth', require('./routes/authRoutes'))
 app.use('/api/task', require('./routes/taskRoutes'))
-
+//app.use("/api/task", taskRoutes)
 
 app.get('/api',(req,res)=>{
     res.send('hi from express');  
