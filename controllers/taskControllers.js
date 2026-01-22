@@ -1,5 +1,5 @@
 //task.ja kku inga function create pantrom
-   const Task = require('../models/task')
+   const Task = require('../models/Task')
 
 exports.createTask = async (req, res) => {
   try {
